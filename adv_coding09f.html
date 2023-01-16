@@ -1,0 +1,392 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns:css="http://macVmlSchemaUri" xmlns="http://www.w3.org/TR/REC-html40"
+xmlns:ns0="urn:schemas-microsoft-com:office:smarttags">
+
+<head>
+<meta name=Title content="Information Theory and Its Applications">
+<meta name=Keywords content="">
+<meta http-equiv=Content-Type content="text/html; charset=x-mac-chinesetrad">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 2008">
+<meta name=Originator content="Microsoft Word 2008">
+<link rel=File-List href="adv_coding09f_files/filelist.xml">
+<title>Information Theory and Its Applications</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>yshan</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Yunghsiang Han</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>66</o:TotalTime>
+  <o:Created>2009-08-27T05:15:00Z</o:Created>
+  <o:LastSaved>2009-08-27T05:17:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>228</o:Words>
+  <o:Characters>1303</o:Characters>
+  <o:Lines>10</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1600</o:CharactersWithSpaces>
+  <o:Version>12.0</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>110</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:NoLineBreaksAfter Lang="JA">$([\{￡￥‘“〈《「『【〔＄（&#65339;｛&#65378;&#65505;&#65509;</w:NoLineBreaksAfter>
+  <w:NoLineBreaksBefore Lang="JA">!%),.:;?]}￠°’”&#8240;′&#8243;℃、。&#12293;〉》」』】〕&#12443;&#12444;&#12445;&#12446;&#12539;&#12541;&#12542;！％），．：；？&#65341;｝&#65377;&#65379;&#65380;&#65381;&#65438;&#65439;&#65504;</w:NoLineBreaksBefore>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="276">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--table.MSONORMALTABLE
+	{mso-bidi-language:"\#0400";}
+
+ /* Font Definitions */
+@font-face
+	{font-family:PMingLiU;
+	mso-font-charset:81;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:1 0 16778248 0 1048576 0;}
+@font-face
+	{font-family:PMingLiU;
+	mso-font-charset:81;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:1 0 16778248 0 1048576 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	font-size:12.0pt;
+	font-family:Century;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:PMingLiU;
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Century;
+	mso-ascii-font-family:PMingLiU;
+	mso-fareast-font-family:PMingLiU;
+	mso-hansi-font-family:PMingLiU;
+	mso-bidi-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+ /* Page Definitions */
+@page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:18.0pt;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:349376494;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-12916678 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:24.0pt;
+	mso-level-number-position:left;
+	margin-left:24.0pt;
+	text-indent:-24.0pt;
+	mso-fareast-font-family:"Times New Roman";}
+@list l0:level2
+	{mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-ascii-font-family:Century;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Century;
+	mso-hansi-theme-font:minor-latin;
+	mso-fareast-language:JA;}
+table.a
+	{mso-style-name:\8868\683C\5167\6587;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 0cm 0cm 0cm;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-language:JA;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-TW link=blue vlink=blue style='tab-interval:24.0pt;text-justify-trim:
+punctuation'>
+
+<div class=Section1 style='layout-grid:18.0pt'>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span style='font-family:PMingLiU;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman"'>課程名稱：高等編碼理論</span><span lang=EN-US
+style='mso-bidi-font-family:"Times New Roman"'> (Advanced Coding Theory)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span style='font-family:PMingLiU;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman"'>授課老師：韓永祥</span><span lang=EN-US
+style='mso-bidi-font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span style='font-family:PMingLiU;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman"'>課程目標：本課程之目標是教導學生線性碼之軟性決定解碼知識。</span><span
+lang=EN-US style='mso-bidi-font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span style='font-family:PMingLiU;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman"'>成績考查方式：期中專題</span><span lang=EN-US
+style='mso-bidi-font-family:"Times New Roman"'>40</span><span style='font-family:
+PMingLiU;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman"'>％，期末專題</span><span lang=EN-US
+style='mso-bidi-font-family:"Times New Roman"'>40</span><span style='font-family:
+PMingLiU;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman"'>％，平常成績佔</span><span lang=EN-US
+style='mso-bidi-font-family:"Times New Roman"'>20</span><span style='font-family:
+PMingLiU;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman"'>％</span><span style='mso-bidi-font-family:
+"Times New Roman"'> <span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US
+style='mso-bidi-font-family:"Times New Roman"'>A set of lecture notes will be
+provided on my personal website. You may obtain the newest version of the
+lecture notes from http://web.ntpu.edu.tw /~yshan/welcome.html. The following
+is a list of recommended references:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US
+style='mso-bidi-font-family:"Times New Roman"'>1. Channel Coding for
+Telecommunications, Martin <span class=SpellE>Bossert</span>, John Wiley &amp;
+Sons, 1999.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US
+style='mso-bidi-font-family:"Times New Roman"'>2. Turbo Codes &#8212;
+Principles and Applications, B. <span class=SpellE>Vucetic</span> and J. Yuan, <span
+class=SpellE>Kluwer</span> Academic Publishers, 2000.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US
+style='mso-bidi-font-family:"Times New Roman"'>3. Error-Control Coding for Data
+Networks, I. S. Reed and X. Chen, <span class=SpellE>Kluwer</span> Academic
+Publishers, 1999.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span lang=EN-US
+style='mso-bidi-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+
+<p style='mso-pagination:none;layout-grid-mode:char'><span lang=EN-US>Students</span>’<span
+lang=EN-US>final grades for this course are based on their performances in
+midterm project reports , final project reports on problems in the coding
+theory research area, and up to 120-minute oral presentations on their reports.
+Students will be asked to attend every lecture in order to learn the advance
+topics of decoding.</span><span lang=EN-US style='font-family:"Times New Roman";
+mso-font-kerning:1.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='layout-grid-mode:char'><span style='font-family:PMingLiU;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman"'>課程綱要：</span><span lang=EN-US
+style='mso-bidi-font-family:"Times New Roman"'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:l0 level1 lfo2;
+tab-stops:list 24.0pt;layout-grid-mode:char'><span><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-fareast-font-family:
+"Times New Roman";mso-bidi-font-family:"Times New Roman"'>S</span></span><span
+lang=EN-US style='mso-bidi-font-family:"Times New Roman"'>oft-decision decoding
+for linear block codes<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:l0 level1 lfo2;
+tab-stops:list 24.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-bidi-font-family:
+"Times New Roman"'>Introduction to <span class=SpellE>convolutional</span>
+codes<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:l0 level1 lfo2;
+tab-stops:list 24.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-bidi-font-family:
+"Times New Roman"'>Sequential decoding of binary <span class=SpellE>convolutional</span>
+codes<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:24.0pt;text-indent:-24.0pt;mso-list:l0 level1 lfo2;
+tab-stops:list 24.0pt;layout-grid-mode:char'><![if !supportLists]><span
+lang=EN-US style='mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman"'><span style='mso-list:Ignore'>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span lang=EN-US style='mso-bidi-font-family:
+"Times New Roman"'>Turbo decoding<o:p></o:p></span></p>
+
+<p style='margin-top:.15pt;margin-right:0cm;margin-bottom:.15pt;margin-left:
+0cm;layout-grid-mode:char'><span lang=EN-US><br>
+<br>
+<b style='mso-bidi-font-weight:normal'>Lecture notes</b> <br>
+<a href="T_sd.pdf"><span style='mso-bidi-font-family:PMingLiU'>Soft Decision
+Decoding of Binary Linear Block <span class=GramE>Codes(</span>pdf file)</span></a>
+</span></p>
+
+<p class=MsoNormal style='mso-pagination:widow-orphan;layout-grid-mode:char'><span
+lang=EN-US style='font-family:PMingLiU;mso-bidi-font-family:PMingLiU;
+mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:widow-orphan;layout-grid-mode:char'><span
+lang=EN-US style='font-family:PMingLiU;mso-bidi-font-family:PMingLiU;
+mso-font-kerning:0pt'><a href="T_convolutional_codes.pdf">Introduction to
+Convolutional <span class=GramE>Codes(</span>pdf file)</a><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:widow-orphan;layout-grid-mode:char'><span
+lang=EN-US style='font-family:PMingLiU;mso-bidi-font-family:PMingLiU;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:widow-orphan;layout-grid-mode:char'><span
+lang=EN-US style='font-family:PMingLiU;mso-bidi-font-family:PMingLiU;
+mso-font-kerning:0pt'><a href="T_Sequential_decoding_convolutional_codes.pdf">Sequential
+Decoding of Binary Convolutional <span class=GramE>Codes(</span>pdf file)</a><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:widow-orphan;layout-grid-mode:char'><span
+lang=EN-US style='font-family:PMingLiU;mso-bidi-font-family:PMingLiU;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:widow-orphan;layout-grid-mode:char'><span
+lang=EN-US style='font-family:PMingLiU;mso-bidi-font-family:PMingLiU;
+mso-font-kerning:0pt'><a href="turbo_decoding.pdf">Turbo <span class=GramE>Decoding(</span>pdf
+file)</a><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:widow-orphan;layout-grid-mode:char'><span
+lang=EN-US style='font-family:PMingLiU;mso-bidi-font-family:PMingLiU;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:widow-orphan;layout-grid-mode:char'><span
+lang=EN-US style='font-family:PMingLiU;mso-bidi-font-family:PMingLiU;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p style='margin-top:.15pt;margin-right:0cm;margin-bottom:.15pt;margin-left:
+0cm'><i style='mso-bidi-font-style:normal'><u><span lang=EN-US
+style='color:blue'><a
+href="http://www.csie.ncnu.edu.tw/~yshan/convolutional_codes.pdf">Last Updated:
+8/27/2009<span style='font-style:normal'> </span></a></span></u></i><span
+class=MsoHyperlink><span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal style='mso-pagination:widow-orphan'><span lang=EN-US
+style='font-family:PMingLiU;mso-bidi-font-family:PMingLiU;mso-font-kerning:
+0pt'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

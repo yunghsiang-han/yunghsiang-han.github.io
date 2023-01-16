@@ -1,0 +1,19 @@
+Yunghsiang S. Han was born in Taipei, Taiwan, on April 24, 1962. He received B.Sc. and M.Sc. degrees in electrical engineering from the
+National Tsing Hua University, Hsinchu, Taiwan, in 1984 and 1986, respectively, and a Ph.D. degree from the School of Computer and
+Information Science, Syracuse University, Syracuse, NY, in 1993. He was from 1986 to 1988 a lecturer at Ming-Hsin Engineering College,
+Hsinchu, Taiwan. He was a teaching assistant from 1989 to 1992, and a research associate in the School of Computer and Information
+Science, Syracuse University from 1992 to 1993. He was, from 1993 to 1997, an Associate Professor in the Department of Electronic
+Engineering at Hua Fan College of Humanities and Technology, Taipei Hsien, Taiwan. He was with the Department of Computer Science and
+Information Engineering at National Chi Nan University, Nantou, Taiwan from 1997 to 2004. He was promoted to Professor in 1998. He
+was a visiting scholar in the Department of Electrical Engineering at University of Hawaii at Manoa, HI from June to October 2001, the SUPRIA visiting research scholar in the Department of Electrical Engineering and Computer Science and CASE center at Syracuse
+University, NY from September 2002 to January 2004, and the visiting scholar in the Department of Electrical and Computer Engineering at University of Texas at Austin, TX from August 2008 to June 2009. He was with the Graduate Institute of Communication Engineering at National
+Taipei University, Taipei, Taiwan from August 2004 to July 2010. From August 2010, he is with the Department of Electrical Engineering at National Taiwan University of Science and Technology and became Chair Professor in May 2011.
+
+Dr. Han's research interests are in error-control coding, wireless networks, and security. Dr. Han has conducting state-of-the-art research in the area of decoding error correcting codes for more than sixteen years. He first developed an sequential-type algorithm based on Algorithm A* from artificial intelligence. At the time, this algorithm drew a lot of attention since it was the most efficient maximum-likelihood decoding algorithm for binary linear block codes. 
+
+Dr. Han has also successfully applied coding theory in the area of wireless sensor networks. He first proposed a random key pre-distribution scheme in wireless sensor networks based on Blom¡¦s scheme, which is an application of Reed-Solomon Codes. This scheme drew tons of attention since it was not only a pioneer work in the respective area but also substantially improved the resilience of the network compared to previous schemes. This work has become extremely famous and it (along with its conference version) has been cited more than 1000 times in seven years according to Google scholar. It also appears in almost every book where the security in wireless sensor networks is one of the topics. 
+ 
+Dr. Han has published 35 journal papers up to the present, among which 15 are full papers in IEEE journals, 10 are short papers in IEEE journals, 2 are full papers in SIAM journals, and 2 are full papers in ACM journals. Most significantly, he has published several highly cited works on wireless sensor networks.  Dr. Han has been the TPC members for many IEEE conferences, including International Conference on Communications (ICC) and Global Communications Conference (GLOBECOM). He also serves as the editors of the International Journal of Ad Hoc and Ubiquitous Computing, International Journal of Distributed Sensor Networks, and the Journal of Internet Technology.
+
+Dr. Han was the winner of the Syracuse University Doctoral Prize in 1994 and a Fellow of IEEE. 
+ 
